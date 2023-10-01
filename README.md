@@ -1,9 +1,9 @@
-# Jobly Client (Front-End)
+# Jobly Client
 
 ## What is This?
 This repo represents the front-end client for a bootcamp development project focused on learning React. The app interacts with an Express backend and provides an authenticated job posting / browsing experience. It was developed as part of my Full-Stack Software Engineering curriculum at the Rithm School bootcamp in partnership with a fellow cohort member. 
 
-The repo for the back end can be found at: https://github.com/jasjoh/
+[Link to backend repo.](https://github.com/jasjoh/express-jobly)
 
 ## Key Learnings
 - How to leverage effects in order to handle loading user state on first render
