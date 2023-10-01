@@ -36,7 +36,6 @@ function CompanyDetail() {
   }, [handle]);
 
   if (company.isLoading) return <h3>Loading...</h3>;
-
   return (
     <div className="CompanyDetail">
       <span className="CompanyDetail-name">{company.data.name}</span>

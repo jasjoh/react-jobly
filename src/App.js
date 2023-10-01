@@ -67,6 +67,7 @@ function App() {
           // something went wrong so don't set user
           // TODO: be more specific about errors we want and re-throw others
           // for example, clear the token if we get 401 error
+          logout();
         }
       }
     }, []

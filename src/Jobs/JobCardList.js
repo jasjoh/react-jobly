@@ -12,7 +12,7 @@ import "./JobCardList.css";
  *
  * { CompanyDetail, JobList } -> JobCardList -> [ JobCard, ... ]  */
 function JobCardList({ jobs }) {
-
+  if (!jobs) { return "" }
   return (
     <div className="JobCardList">
       {jobs.map(j => <JobCard key={j.id} job={j} />)}
